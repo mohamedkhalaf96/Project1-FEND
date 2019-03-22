@@ -1,0 +1,472 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+    font-family: cairo;
+    
+}
+
+.navbar
+{
+    color: #12385F;
+    background-color: transparent;
+}
+
+.logo
+{
+    width: 85px;
+    height: 45px;
+}
+
+.navbar-brand span
+{
+    font-weight: bold;
+    margin-left: -10px;
+    color: #12385F;
+    letter-spacing: 2px;
+}
+
+.nav-style .nav-link
+{
+    color: #12385F !important;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.nav-style li
+{
+    margin-left: 6px;
+}
+
+#home
+{
+    background: url(../imgs/header_stock.png) no-repeat center center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    width: 100%; 
+}
+
+.overlay
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.description
+{
+    line-height: 400%;
+    letter-spacing: 3px;
+}
+
+.description div
+{
+    color: white;
+}
+
+.description div:first-child
+{
+    font-size: 38px;
+}
+
+.description div:nth-child(2)
+{
+    font-size: 28px
+}
+
+.description strong
+{
+    color: silver;
+}
+
+#about h1
+{
+    color: #12385F;
+    margin-top: 5px;
+}
+
+.card
+{
+    color: #12385F;
+}
+
+.card img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.layout
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.thanks-text
+{
+    font-size: 28px;
+    letter-spacing: 2px;
+}
+
+.cv-but
+{
+   background: white;
+    color: #12385F;
+    border-color: #12385F;
+    transition: all .3s ease-in-out;
+        -webkit-transition : all .3s ease-in-out;
+    -moz-transition : all .3s ease-in-out;
+}
+
+.cv-but:hover
+{
+   background:#12385F;
+    color: white;
+}
+
+
+.info P:first-child
+{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#services
+{
+    color: #12385F;
+
+}
+
+.title-services
+{
+    background-color: rgba(0,0,0,.03);
+    border-top: 1px solid rgba(0,0,0,.125);
+    padding: 1.0rem 1.75rem;
+    margin-bottom: 30px
+}
+
+.title-works
+{
+    border-top: 1px solid rgba(0,0,0,.125);
+    padding: 1.0rem 1.75rem;
+    margin-bottom: 30px
+}
+
+.first-row-serve
+{
+    color: #12385F;
+}
+
+.serv
+{
+    box-shadow: 0 0 8px rgba(0,0,0,.3);
+    height: 300px;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin: 0px 20px 35px 20px;
+}
+
+.serv h4
+{
+    margin-top: 15px;
+}
+
+.third-serv img
+{
+    width: 70px;
+    height: 70px;
+}
+
+#works
+{
+    background-color: rgba(0,0,0,.03);
+}
+
+
+#works img
+{
+    height: 100%;
+}
+
+.work
+{
+    position: relative;
+    border-radius: 10px;
+    margin:0px 20px 45px 20px;
+    overflow: hidden;
+    padding: 0;
+    height: 350px;
+    
+}
+
+.over-work
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0,0,0);
+    opacity: 0;
+    color: white;
+    transition: all .3s ease-in-out;
+    -webkit-transition : all .3s ease-in-out;
+    -moz-transition : all .3s ease-in-out;
+}
+
+.over-work a
+{
+    background-color: white;
+    color: #12385F;
+    transition: all .3s ease-in-out;
+    -webkit-transition : all .3s ease-in-out;
+    -moz-transition : all .3s ease-in-out;
+}
+
+.over-work a:hover
+{
+    background-color: #12385F;
+    color: white;
+}
+
+.over-work h3
+{
+    margin-top: 100px
+}
+
+
+.work:hover .over-work
+{
+    opacity: 0.9;
+    height: 100%;
+}
+
+#works
+{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+#contact
+{
+    position: relative;
+    width: 100%;
+    min-height: 600px;
+    background: url(../imgs/contact-cover-video.jpg) fixed no-repeat center center ;
+}
+
+.over-contact
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.over-contact h1
+{
+    font-size: 46px;
+}
+
+.contact-row
+{
+    margin-top: 100px ;
+}
+
+.phone-icon i,.email-icon i
+{
+    font-size: 85px;
+    color: #FFF;
+}
+
+.phone-icon
+{
+    margin-bottom: 30px;
+}
+
+.email-icon
+{
+    margin-bottom: 25px;
+}
+
+.contact-row h4
+{
+    letter-spacing: 3px;
+}
+
+.contact-row h3
+{
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+.first-contact-col,.second-contact-col
+{
+    margin-bottom: 50px;
+}
+
+.footer
+{
+    width: 100%;
+    min-height: 120px;
+    background-color: rgba(0,0,0,.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-footer-col
+{
+    font-size: 16px;
+    padding-top: 15px;
+     color: #12385F;
+}
+
+.second-footer-col strong
+{
+    font-size: 18px
+}
+
+.third-footer-col
+{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.third-footer-col a
+{
+    color: #12385F;
+    margin-left: 20px;
+}
+
+
+
+@media (max-width: 991.98px) 
+{
+    .card-text
+    {
+   padding-top: 10px;
+    }
+    .thanks-text
+    {
+        font-size: 24px
+    }
+    .first-row-work h3
+    {
+        font-size: 24px
+    }
+    
+    .phone-icon i,.email-icon i 
+    {
+        font-size: 70px;
+    }
+    .contact-row h3
+    {
+        font-size: 24px;
+    }
+    .contact-row h4,.contact-row h5
+    {
+        font-size: 18px
+    }
+    .first-footer-col
+    {
+        order: 1;
+    }
+    .second-footer-col
+    {
+        order: 3;
+    }
+    .third-footer-col
+    {
+        order: 2;
+    }
+}
+
+
+@media (max-width: 767.98px) 
+{
+    .description div:first-child 
+    {
+        font-size: 28px
+    }
+    h1
+    {
+        font-size: 28px;
+    }
+    #services h2
+    {
+        font-size: 28px;
+    }
+    
+    .over-contact h1
+    {
+        font-size: 36px;
+    }
+    
+    .footer-row
+    {
+        padding: 20px 0px 20px 0px;
+    }
+    
+    .first-footer-col,.third-footer-col
+    {
+        margin-bottom: 10px;
+    }
+
+}
+
+
+@media (max-width: 575.98px) 
+{ 
+    .description div:first-child 
+    {
+        font-size: 28px
+    }
+    .description div:first-child strong
+    {
+        display: block;
+        font-size: 26px;
+    }
+    .description div:nth-of-type(2) 
+    {
+        font-size: 24px
+    }
+    
+    .thanks-text
+    {
+        font-size: 22px;
+    }
+    
+    #services h2 
+    {
+        font-size: 24px
+    }
+    
+    .over-contact h1
+    {
+        font-size: 32px;
+    }
+    
+    .second-footer-col strong
+    {
+        display: block;
+        font-size: 20px
+    }
+}
+
+
+
+
